@@ -4,7 +4,7 @@
 
 ## Bob needs you
 
-He wants you to implement a simple basket feature for him.  He has a small shop selling bagels and he wants to be able to keep track of what his customers are buying.  Because of the small shop, customers can only fit 5 bagels in a basket at any one time.  He wants to be able to add and remove bagels from the basket and to be able to see the total price of the bagels in the basket.
+He wants you to implement a simple basket feature for him. He has a small shop selling bagels and he wants to be able to keep track of what his customers are buying. Because of the small shop, customers can only fit 5 bagels in a basket at any one time. He wants to be able to add and remove bagels from the basket and to be able to see the total price of the bagels in the basket.
 
 ---
 
@@ -27,8 +27,8 @@ A **User Story** describes one thing a program is expected to do, from the persp
 7. A bagel has its own price and is able to report its price
 8. A basket is able to report its total price
 
-- Take each of these *Requirement Statements* and create a User Story for each one.
-- Record the user story in a card in the backlog of your ***Kanban*** board - use the *Title* field so it is easily seen
+- Take each of these _Requirement Statements_ and create a User Story for each one.
+- Record the user story in a card in the backlog of your **_Kanban_** board - use the _Title_ field so it is easily seen
 
 ---
 
@@ -38,17 +38,17 @@ In this activity, you will transform your User Stories into a Domain Model and t
 
 In Object-Oriented Programming, the systems described by User Stories are made up of **Objects** and **Messages**. Objects describe the objects within the system, and Messages describe how those objects interact. We call these systems **Domain Models**.
 
-- Take each *User Story* and create a ***Domain Model*** for it
+- Take each _User Story_ and create a **_Domain Model_** for it
 - Create a table in **Markdown** and put your table in the Description field of the card for the User Story
 
 ---
 
 ## From Domain Models to Working Code
 
-In this activity, you will start the Test Driven Development process.  You will identify the test cases that will be used to test each bit of functionality for the program.  You should use the *Red-Green-Refactor* process to develop the program and a suitable *Pair-Programming* technique - ***Ping-Pong*** would be the most suitable.
+In this activity, you will start the Test Driven Development process. You will identify the test cases that will be used to test each bit of functionality for the program. You should use the _Red-Green-Refactor_ process to develop the program and a suitable _Pair-Programming_ technique - **_Ping-Pong_** would be the most suitable.
 
-- Take each *User Story* and create a set of normal ***Test Cases*** for it - list these in a Checklist on your Kanban board
-- Next, identify any ***Edge Cases*** that may need to be tested - list these in the same Checklist
+- Take each _User Story_ and create a set of normal **_Test Cases_** for it - list these in a Checklist on your Kanban board
+- Next, identify any **_Edge Cases_** that may need to be tested - list these in the same Checklist
 - Write a failing test for the first test case
 - The other person should write the code to make the test pass, ad infinitum (or until you have exhausted your test cases)
 
@@ -56,14 +56,13 @@ In this activity, you will start the Test Driven Development process.  You will 
 >
 > - Write a failing test and then commit
 > - Write the code to make the test pass and then commit
->
 
 - Experiment with Generative AI and see if can suggest any other test cases - such as Corner or Extreme cases
   - Write any tests and code to make them pass
 
 ## Extension Tasks
 
-If you get to a point where you have completed the above tasks, you can extend your program to handle these additional requirements.  Don't forget to add to your Kanban board as you go and to commit your code regularly.
+If you get to a point where you have completed the above tasks, you can extend your program to handle these additional requirements. Don't forget to add to your Kanban board as you go and to commit your code regularly.
 
 1. [Taking Orders](bobs-bagels-extension-1.md)
 2. [Basic Receipt](bobs-bagels-extension-2.md)
